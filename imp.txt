@@ -1,0 +1,138 @@
+Dear Sir/Madam,
+
+I am writing to you regarding my friend Krishna Chaitanya. We both graduated from IIT Madras and I had the opportunity to see his work on couple projects. He is hard working and able to work independently. His experience in developing Android Applications and Web Applications is quite relevant and has my highest recommendation to him.
+
+Thank you.
+
+Hi,
+Please review the below concepts.. 
+
+Java
+===
+Basics
+-------
+Abstract classes/methods
+Mutable/Immutable objects
+Singleton classes
+Class/Instance/Method(local) variables
+Class.forName() - Class loading...static vs. dynamic
+Various Classloaders – concepts only, not about Custom classloaders
+Volatile, Serializable
+
+
+Reflection
+------------
+Reflection - Basics
+Class, Method, Member, Object...
+
+
+Copy of objects
+------------------
+Cloning - Shallow copy, Deep copy
+
+
+Collections
+-------------
+Collection API – explore constructors and methods in detail
+List, ArrayList, LinkedList
+Set, HashSet, TreeSet
+Map, HashMap, TreeMap
+
+Duplicate objects in collections....
+equals, hashcode methods
+
+Hashtable, Vector - what is available from jdk 1.5 
+Concurrent collection objects - ConcurrentHashMap and etc..
+
+Sorting - available sort methods in existing collections
+Custom sort - Comparable interface, sample implementation, compareTo method
+
+http://docs.oracle.com/javase/6/docs/api/java/util/ArrayList.html
+http://docs.oracle.com/javase/6/docs/api/java/util/AbstractList.html#equals(java.lang.Object)
+
+
+
+JDBC
+------
+Type of drivers
+Basic steps to make any database call (Query, Proc call)
+
+Statement, PreparedStatement, CallableStatement
+PreparedStatements advantages -one time compilation, performance, bind variables (? args)
+
+Connection Pool, Physical connection vs. connection object
+Clean up resources after DB operations
+finally block - close resultset, statement, connection
+
+final vs. finally vs. synchronized
+
+
+JDK 1.5 Features
+--------------------
+Generics, Generics in Collections
+Enum
+Autoboxing
+Varargs
+Enhanced for loops
+
+
+Patterns
+----------
+Design Pattern - GoF, Core Java Patterns, J2EE patterns
+
+MVC*****
+Singleton*****
+Factory
+Decorator / Adapter / Strategy
+DAO - Data Access Object
+
+
+Challenges in Multithreaded environments
+Single threaded model
+
+Struts components - MVC perspective
+Hibernate - ORM perspective
+
+JVM params like Xargs
+
+
+Oracle
+=====
+SQL
+---
+RDBMS concepts - rows/columns - tuples, attributes, data - table, view and etc..
+Contraints, user vs. schema, instance vs. database
+
+ACID property, Transaction Control, Transaction Isolation level, Handling transactions
+
+DDL, DML, DCL and TCL.
+
+JOINs - equijoin, outerjoin, left outer join, what specifies the left table in a join condition
+
+- INNER JOIN
+- OUTER JOIN
+- FULL JOIN
+
+SQL functions - single row, multirow - aggregate - group by, analytical, lead, lag, rank, partition by
+
+PL/SQL
+---------
+Basic blocks / structure
+Functions, Procedures, Packages and etc...
+Autonomous transaction
+Cursors and cursor types, various usage in PL/SQL
+Dynamic SQL, Execute immediate - executing SQL statements within the PL/SQL program
+Exception Handling - different exceptions available, custom/application exception
+Advantages of Packages
+Oracle 9i/10g – advanced features, collections, bulk collect, custom types and etc.
+Performance tuning - explain plan basics
+
+Tools - Toad for Oracle, Oracle SQL Developer or any other tools
+
+Other
+-------
+5 top best practices (Java, Oracle PL/SQL)
+5 top performance issues (Java, Oracle PL/SQL)
+5 top challenges you had in the past (Java, Oracle PL/SQL)
+
+
