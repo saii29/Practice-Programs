@@ -1,2 +1,6 @@
 for onSuccess and onFailure methods
 src/test/java/akkastudy/futures/java/FuturesTest.java
+
+
+future.onSuccess(new PrintResult<Object>()
+http://stackoverflow.com/questions/16612604/handling-future-onsuccess-as-response-from-an-akka-actor
