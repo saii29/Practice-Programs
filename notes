@@ -1,5 +1,6 @@
 for onSuccess and onFailure methods
 src/test/java/akkastudy/futures/java/FuturesTest.java
+http://stackoverflow.com/questions/32165564/what-akka-java-classes-to-implement-future-callbacks-with
 
 
 future.onSuccess(new PrintResult<Object>()
