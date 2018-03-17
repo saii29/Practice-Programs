@@ -5,7 +5,7 @@ class StaticComponents
  
      static
      {
-          System.out.println("StaticComponents SIB");
+          System.out.println("StaticComponents SIB --- " + StaticComponents.staticVariable);
           staticVariable = 10;
      }
  
@@ -21,6 +21,8 @@ public class StaticComponentsClass
      static
      {
           System.out.println("MainClass SIB");
+          StaticComponents.staticVariable = 100;
+          System.out.println("MainClass SIB " +StaticComponents.staticVariable);
      }
  
      public static void main(String[] args)
