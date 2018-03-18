@@ -6,14 +6,20 @@ class A
  
      static void staticMethod()
      {
-          System.out.println(staticVariable);
+          System.out.println("staticMethod:" + staticVariable);
+     //   System.out.println(nonStaticVariable);
+     }
+     
+     static
+     {
+          System.out.println("staticBlock:" + staticVariable);
      //   System.out.println(nonStaticVariable);
      }
  
      void nonStaticMethod()
      {
-          System.out.println(staticVariable);
-          System.out.println(nonStaticVariable);
+          System.out.println("nonStaticMethod:"+staticVariable);
+          System.out.println("nonStaticMethod:"+nonStaticVariable);
      }
 }
  
@@ -29,13 +35,13 @@ public class StaticAndNonStaticComponents
           A a1 = new A();
           A a2 = new A();
  
-          System.out.println(a1.nonStaticVariable);
-          System.out.println(a1.staticVariable);
+          System.out.println("main a1:" + a1.nonStaticVariable);
+          System.out.println("main a1:"+a1.staticVariable);
           a1.nonStaticMethod();
           a1.staticMethod();
  
-          System.out.println(a2.staticVariable);
+          System.out.println("main a2:"+a2.staticVariable);
           a1.staticVariable = 20;
-          System.out.println(a2.staticVariable);
+          System.out.println("main a2:"+a2.staticVariable);
      }
 }
