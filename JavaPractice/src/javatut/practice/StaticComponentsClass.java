@@ -23,7 +23,7 @@ public class StaticComponentsClass
      {
           System.out.println("MainClass SIB");
           StaticComponents.staticVariable = 100;
-          System.out.println("MainClass SIB " +StaticComponents.staticVariable);
+          System.out.println("MainClass SIB: " +StaticComponents.staticVariable);
      }
  
      public static void main(String[] args)

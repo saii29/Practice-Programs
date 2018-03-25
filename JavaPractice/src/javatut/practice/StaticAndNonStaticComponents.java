@@ -12,7 +12,7 @@ class A
      
      static
      {
-          System.out.println("staticBlock first:" + staticVariable);
+          System.out.println("staticBlock first: " + staticVariable);
      //   System.out.println(nonStaticVariable);
      }
  

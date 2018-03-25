@@ -8,7 +8,7 @@ public class Constructor extends AA
      }
 	Constructor(int i)
      {
-//          this(); //  adds super() here
+//          this(); //  adds super() here 
           System.out.println("gg--" +i );
      }
      
