@@ -1,5 +1,5 @@
 package javatut.practice;
-public class Constructor
+public class Constructor extends AA
 {
 	Constructor()
      {
@@ -8,8 +8,7 @@ public class Constructor
      }
 	Constructor(int i)
      {
-          this();
-          // It gives compile time error
+//          this(); //  adds super() here
           System.out.println("gg--" +i );
      }
      
@@ -23,7 +22,7 @@ class AA
      AA()
      {
           //By Default, Compile will keep super() calling statement here.
-          System.out.println("First Constructor");
+          System.out.println("First Constructor AA");
      }
      AA(int i)
      {

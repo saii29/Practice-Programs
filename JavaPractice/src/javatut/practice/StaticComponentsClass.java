@@ -7,6 +7,7 @@ class StaticComponents
      {
           System.out.println("StaticComponents SIB --- " + StaticComponents.staticVariable);
           staticVariable = 10;
+          System.out.println("StaticComponents SIB --- " + StaticComponents.staticVariable);
      }
  
      static void staticMethod()
